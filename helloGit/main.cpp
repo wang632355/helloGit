@@ -4,6 +4,6 @@ int main(void)
 {
 	Student s(19, "da");
 	s.show();
-	std::cout << "abcde " << std::endl;
+	std::cout << "abcdefghijk " << std::endl;
 	return 0;
 }
