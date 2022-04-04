@@ -1,7 +1,9 @@
 #include<iostream>
-
+#include"Student.h"
 int main(void)
 {
-	std::cout << "ÄãºÃ" << std::endl;
+	Student s(19, "da");
+	s.show();
+	std::cout << "ÄãºÃa " << std::endl;
 	return 0;
 }
